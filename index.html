@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>操作案と許可表の照合 | 架空ラボ商事</title><link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script></head>
+<body>
+<header><div><span class="eyebrow">公開デモ / 架空ラボ商事</span><h1>AIの操作案を、実行の手前で照合する</h1><p>原文を読む → 許可表と照合 → 人が保留を解消 → 照合し直す → 下書きを確定</p></div><span class="tag">送信・台帳更新なし</span></header>
+<main>
+<section class="notice"><strong>事前に用意したAIの候補を再生しています。</strong> その場でAIを呼んでいません。入力を変えてもAIは再処理しません。すべて架空のデータです。<br>「進めてよい」は、この許可表に合い、模擬記録へ進めてよいという意味です。業務の承認や安全性の判定ではありません。コードは原文との意味の一致を判定しません。</section>
+<details><summary>固定の顧客台帳・許可表を見る</summary><div id="reference"></div></details>
+<section class="toolbar"><label>構造化案の版<select id="version"><option value="initial">初版（略記を残す）</option><option value="revised" selected>修正版</option><option value="teaching">誤りの教材</option></select></label><label>保存先の比較<select id="comparison"><option value="exact">完全一致（固定の許可条件）</option><option value="prefix">前方一致（初版の再現）</option></select></label><button id="add">依頼を追加</button><button id="export">記録をJSONで書き出す</button></section>
+<p id="version-note" class="notice"></p><div id="counts" class="counts"></div>
+<div class="workspace"><aside><h2>依頼一覧</h2><div id="requests"></div></aside><article id="detail"></article></div>
+<details id="export-preview"><summary>書き出すJSONのプレビュー</summary><label for="export-json">直近に書き出した記録（読み取り専用）</label><textarea id="export-json" rows="12" readonly></textarea></details>
+<section><h2>模擬操作の記録</h2><div id="records"></div></section>
+<section><h2>判断の履歴</h2><div id="history"></div></section>
+<details><summary>任意の生成AIに渡す項目と指示</summary><p>架空の依頼だけを使ってください。この画面から外部への送信は行いません。返ったJSONを各依頼の構造化案に貼り付けられます。</p><pre id="prompt"></pre><button id="copy">指示をコピー</button></details>
+<p class="foot">状態はこの画面を開いている間だけ保持します。再読み込みすると初期状態に戻ります。必要な記録はJSONで書き出してください。</p>
+</main><div id="message" role="status" aria-live="polite"></div>
+</body></html>

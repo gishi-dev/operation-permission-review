@@ -1,0 +1,11 @@
+{
+  "name": "operation-permission-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "架空の顧客台帳で操作案を許可表と照合する公開デモ",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "check": "node --check server.mjs && node --check app.js && node --check review.js" },
+  "dependencies": {}
+}

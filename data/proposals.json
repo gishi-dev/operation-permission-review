@@ -1,0 +1,564 @@
+{
+  "initial": {
+    "R01": {
+      "customer": "C01",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R02": {
+      "customer": "C02",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R03": {
+      "customer": "C03",
+      "owner": "担当A",
+      "field": "次回連絡日",
+      "operation": "変更案の下書き保存",
+      "value": "2026-10-26",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R04": {
+      "customer": "C04",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "reviewer@office.example"
+      ],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R05": {
+      "customer": "C09",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R06": {
+      "customer": "C05",
+      "owner": "担当A",
+      "field": "備考",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R07": {
+      "customer": "C06",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "元台帳の更新",
+      "value": "対応済み",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R08": {
+      "customer": "C07",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "削除",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R09": {
+      "customer": "C02",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "outside@external.example"
+      ],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R10": {
+      "customer": "C03",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "reviewer@office.example"
+      ],
+      "cc": [
+        "outside@external.example"
+      ],
+      "source": "操作依頼"
+    },
+    "R11": {
+      "customer": "C04",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き-公開用",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R12": {
+      "customer": "C05",
+      "owner": "担当A",
+      "field": "状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R13": {
+      "customer": "C06",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R14": {
+      "customer": "C07",
+      "owner": "担当A",
+      "field": "次回連絡日",
+      "operation": "変更案の下書き保存",
+      "value": "2026-10-27",
+      "destination": "",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R15": {
+      "customer": "C08",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R16": {
+      "customer": "C01",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "outside@external.example"
+      ],
+      "cc": [],
+      "source": "台帳の備考"
+    }
+  },
+  "revised": {
+    "R01": {
+      "customer": "C01",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R02": {
+      "customer": "C02",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R03": {
+      "customer": "C03",
+      "owner": "担当A",
+      "field": "次回連絡日",
+      "operation": "変更案の下書き保存",
+      "value": "2026-10-26",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R04": {
+      "customer": "C04",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "reviewer@office.example"
+      ],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R05": {
+      "customer": "C09",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R06": {
+      "customer": "C05",
+      "owner": "担当A",
+      "field": "備考",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R07": {
+      "customer": "C06",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "元台帳の更新",
+      "value": "対応済み",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R08": {
+      "customer": "C07",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "削除",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R09": {
+      "customer": "C02",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "outside@external.example"
+      ],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R10": {
+      "customer": "C03",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "reviewer@office.example"
+      ],
+      "cc": [
+        "outside@external.example"
+      ],
+      "source": "操作依頼"
+    },
+    "R11": {
+      "customer": "C04",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き-公開用",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R12": {
+      "customer": "C05",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R13": {
+      "customer": "C06",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R14": {
+      "customer": "C07",
+      "owner": "担当A",
+      "field": "次回連絡日",
+      "operation": "変更案の下書き保存",
+      "value": "2026-10-27",
+      "destination": "",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R15": {
+      "customer": "C08",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R16": {
+      "customer": "C01",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "outside@external.example"
+      ],
+      "cc": [],
+      "source": "台帳の備考"
+    }
+  },
+  "teaching": {
+    "R01": {
+      "customer": "C01",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R02": {
+      "customer": "C02",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R03": {
+      "customer": "C03",
+      "owner": "担当A",
+      "field": "次回連絡日",
+      "operation": "変更案の下書き保存",
+      "value": "2026-10-26",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R04": {
+      "customer": "C04",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "reviewer@office.example"
+      ],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R05": {
+      "customer": "C09",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R06": {
+      "customer": "C05",
+      "owner": "担当A",
+      "field": "備考",
+      "operation": "閲覧",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R07": {
+      "customer": "C06",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "元台帳の更新",
+      "value": "対応済み",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R08": {
+      "customer": "C07",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "削除",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R09": {
+      "customer": "C02",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "reviewer@office.example"
+      ],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R10": {
+      "customer": "C03",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "reviewer@office.example"
+      ],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R11": {
+      "customer": "C04",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き-公開用",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R12": {
+      "customer": "C05",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R13": {
+      "customer": "C06",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "変更案の下書き保存",
+      "value": "確認中",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R14": {
+      "customer": "C07",
+      "owner": "担当A",
+      "field": "次回連絡日",
+      "operation": "変更案の下書き保存",
+      "value": "2026-10-27",
+      "destination": "",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R15": {
+      "customer": "C08",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [],
+      "cc": [],
+      "source": "操作依頼"
+    },
+    "R16": {
+      "customer": "C01",
+      "owner": "担当A",
+      "field": "対応状況",
+      "operation": "確認依頼の模擬送信",
+      "value": "",
+      "destination": "社内下書き",
+      "to": [
+        "outside@external.example"
+      ],
+      "cc": [],
+      "source": "台帳の備考"
+    }
+  }
+}
